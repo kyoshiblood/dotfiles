@@ -1,0 +1,26 @@
+export ZSH="$HOME/.oh-my-zsh"
+export EDITOR=vim
+
+## settings
+
+ZSH_THEME="spaceship"
+plugins=(git)
+
+##scripts
+
+source $ZSH/oh-my-zsh.sh
+source "$HOME/.local/share/zinit/zinit.git/zinit.zsh"
+
+eval "$(starship init zsh)"
+eval "$(/home/kyoshiblood/.local/bin/mise activate zsh)"
+
+## aliases
+
+alias btrfsbal="sudo btrfs balance start"
+alias btrfsdf="sudo btrfs filesystem df"
+
+zinit light zdharma/fast-syntax-highlighting
+zinit light zsh-users/zsh-autosuggestions
+zinit light zsh-users/zsh-completions
+
+### End of Zinit's installer chunk

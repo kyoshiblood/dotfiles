@@ -1,0 +1,14 @@
+[user]
+    name = Fernando Rocha
+    email = fernando.rocha78@hotmail.com
+	signingkey = 3297946BA6695640
+[core]
+    editor = code --wait
+[alias]
+    st = status
+    co = checkout
+    br = branch
+    cm = commit
+    l = log --oneline --graph --all
+[commit]
+	gpgsign = true

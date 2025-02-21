@@ -1,0 +1,32 @@
+{
+    "workbench.iconTheme": "symbols",
+    "terminal.integrated.fontFamily": "Jetbrains Mono",
+    "terminal.integrated.shell.osx": "/bin/zsh",
+  
+    "editor.minimap.enabled": false,
+    "editor.fontSize": 15,
+    "editor.fontWeight": "600",
+    "editor.fontLigatures": true,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "explorer.compactFolders": false,
+  
+    "[prisma]": {
+      "editor.formatOnSave": true
+    },
+    
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "files.autoSave": "afterDelay",
+    "workbench.colorTheme": "Min Dark",
+    "workbench.activityBar.location": "top",
+    "workbench.editor.editorActionsLocation": "titleBar",
+    "terminal.integrated.env.linux": {},
+    "console-ninja.featureSet": "Community",
+    "window.menuBarVisibility": "toggle",
+    "discord.lowerDetailsEditing": "Workspace: {workspace_folder}",
+    "git.openRepositoryInParentFolders": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "[jsonc]": {
+      "editor.defaultFormatter": "biomejs.biome"
+    }
+}
